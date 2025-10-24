@@ -1,0 +1,31 @@
+<!-- main page for bmi calculator -->
+<h1>body mass index calculator</h1>
+<h2>enter your data</h2>
+
+<!-- form sends data to /calculate_bmi route -->
+<form action="/calculate_bmi">
+    <!-- input for height -->
+    <label for="height-input">height in metres:</label>
+    <input
+
+            type="number"
+            name="height"
+            id="height-input"
+            step="0.01"
+            required
+
+    >
+
+    <!-- input for weight -->
+    <label for="weight-input">weight in kg:</label>
+    <input
+            type="number"
+            name="weight"
+            id="weight-input"
+            step="0.01"
+            required
+    >
+
+    <!-- button to send form data -->
+    <button type="submit">calculate</button>
+</form>
