@@ -16,6 +16,7 @@ app.set('view engine', 'hbs') // use handlebars as the view engine
 // use indexRouter for all routes starting from '/'
 app.use('/', indexRouter)
 
+
 // start the server on port 2000 (or environment port)
 let server = app.listen(process.env.port || 2000, function() {
     console.log('server running')
