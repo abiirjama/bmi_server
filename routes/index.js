@@ -30,6 +30,8 @@ router.get('/calculate_bmi', function(req, res, next) {
     res.render('result', { bmi: bmi })
 })
 
+
+
 // export router for use in server.js
 module.exports = router
 

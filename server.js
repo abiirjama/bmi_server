@@ -7,6 +7,7 @@ const indexRouter = require('./routes/index')
 
 const app = express() // create the express app
 
+
 // set the folder where view templates are stored
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'hbs') // use handlebars as the view engine
