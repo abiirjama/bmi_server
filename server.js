@@ -7,6 +7,7 @@ const indexRouter = require('./routes/index')
 
 const app = express() // create the express app
 
+// serve static files from the public folder
 app.use(express.static(path.join(__dirname, 'public')))
 
 // set the folder where view templates are stored
